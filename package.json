@@ -1,0 +1,31 @@
+{
+  "name": "ahj_7_task_1",
+  "version": "1.0.0",
+  "description": "Продвинутый JS в браузере. Лекция 7. Задача 1.",
+  "main": "server.js",
+  "scripts": {
+    "prestart": "npm install",
+    "start": "forever server.js",
+    "watch": "forever -w server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "engines": {
+    "node": "11.x"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/serviktor050/ahj_7_task_1.git"
+  },
+  "author": "serviktor050",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/serviktor050/ahj_7_task_1/issues"
+  },
+  "homepage": "https://github.com/serviktor050/ahj_7_task_1#readme",
+  "dependencies": {
+    "forever": "^3.0.4",
+    "koa": "^2.13.1",
+    "koa-body": "^4.2.0",
+    "uuid": "^8.3.2"
+  }
+}
