@@ -99,7 +99,7 @@ app.use(async (ctx) => {
         const { id, status } = ctx.request.query;
         const index = tickets.findIndex(item => item.id === id);
         tickets[index].status = status;
-        ctx.response.body = 'Ok';
+        ctx.response.body = tickets[index];
         return;
     }
 
